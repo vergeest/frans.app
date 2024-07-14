@@ -16,7 +16,7 @@
 	alt=""
 	src={BgImage}
 	aria-hidden="true"
-	class="absolute -z-10 block h-[720px] object-cover supports-[animation-timeline]:animate-translate-down supports-[animation-range]:[animation-range:exit_0%_exit-crossing_100%] supports-[animation-timeline]:[animation-timeline:view(block)]"
+	class="pointer-events-none absolute -z-10 block h-[720px] w-full select-none object-cover supports-[animation-timeline]:animate-translate-down supports-[animation-range]:[animation-range:exit_0%_exit-crossing_100%] supports-[animation-timeline]:[animation-timeline:view(block)]"
 />
 <Header />
 <section class="mx-auto w-[1080px] max-w-full px-6 py-16 lg:py-32">

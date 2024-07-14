@@ -16,4 +16,4 @@
 	});
 </script>
 
-<span class="leading-none">{pageviews} views</span>
+<span class="leading-none">{pageviews}</span>
