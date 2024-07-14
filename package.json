@@ -25,6 +25,7 @@
 		"@fontsource-variable/platypi": "^5.0.3",
 		"@fontsource/atkinson-hyperlegible": "^5.0.20",
 		"@fontsource/silkscreen": "^5.0.20",
+		"@sveltejs/adapter-static": "^3.0.2",
 		"nprogress": "^0.2.0"
 	}
 }
