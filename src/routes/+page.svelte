@@ -3,6 +3,7 @@
 	import HomeGrid from '../lib/HomeGrid.svelte';
 	import SocialLinks from '../lib/SocialLinks.svelte';
 	import ViewCount from '../lib/ViewCount.svelte';
+	import BgImage from '../lib/bg.svg';
 </script>
 
 <svelte:head>
@@ -11,8 +12,11 @@
 	<meta name="theme-color" content="#000000" />
 </svelte:head>
 
-<div
-	class="absolute -z-10 h-[720px] w-full bg-[url('/bg.svg')] bg-cover bg-center supports-[animation-timeline]:animate-translate-down supports-[animation-range]:[animation-range:exit_0%_exit-crossing_100%] supports-[animation-timeline]:[animation-timeline:view(block)]"
+<img
+	alt=""
+	src={BgImage}
+	aria-hidden="true"
+	class="absolute -z-10 block h-[720px] object-cover supports-[animation-timeline]:animate-translate-down supports-[animation-range]:[animation-range:exit_0%_exit-crossing_100%] supports-[animation-timeline]:[animation-timeline:view(block)]"
 />
 <Header />
 <section class="mx-auto w-[1080px] max-w-full px-6 py-16 lg:py-32">
@@ -27,3 +31,5 @@
 	</h1>
 	<SocialLinks />
 </section>
+
+<HomeGrid />
