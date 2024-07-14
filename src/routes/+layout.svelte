@@ -1,9 +1,8 @@
 <script>
-	export const prerender = true;
-
 	import '../style.css';
 
 	import initAnaltytics from '../lib/plausible';
+	import NProgress from '$lib/NProgress.svelte';
 
 	import platypiNormalWoff2 from '@fontsource-variable/platypi/files/platypi-latin-wght-normal.woff2?url';
 	import silkscreenNormalWoff2 from '@fontsource/silkscreen/files/silkscreen-latin-400-normal.woff2?url';
@@ -27,5 +26,7 @@
 	<link rel="preload" href={atk400NormalWoff2} as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href={atk700NormalWoff2} as="font" type="font/woff2" crossorigin />
 </svelte:head>
+
+<NProgress />
 
 <slot />

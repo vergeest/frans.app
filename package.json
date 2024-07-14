@@ -24,6 +24,7 @@
 	"dependencies": {
 		"@fontsource-variable/platypi": "^5.0.3",
 		"@fontsource/atkinson-hyperlegible": "^5.0.20",
-		"@fontsource/silkscreen": "^5.0.20"
+		"@fontsource/silkscreen": "^5.0.20",
+		"nprogress": "^0.2.0"
 	}
 }

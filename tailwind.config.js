@@ -19,12 +19,16 @@ export default {
 		extend: {
 			keyframes: {
 				'fade-in': {
-					from: { opacity: 0 },
+					from: { opacity: 0, transform: 'translateY(-10px)' },
 					to: { opacity: 1 }
+				},
+				'translate-down': {
+					to: { transform: 'translateY(100px)', filter: 'blur(16px)' }
 				}
 			},
 			animation: {
-				'fade-in': 'fade-in 1s ease both'
+				'fade-in': 'fade-in 1s ease both',
+				'translate-down': 'translate-down linear both'
 			}
 		}
 	},
