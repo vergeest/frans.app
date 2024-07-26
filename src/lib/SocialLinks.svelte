@@ -48,7 +48,7 @@
 		>
 	</a>
 	<a
-		href="https://github.com/frans32"
+		href="https://github.com/vergeest"
 		rel="noreferrer noopener"
 		target="_blank"
 		aria-label="My GitHub"

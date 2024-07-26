@@ -5,18 +5,13 @@
 body {
 	@apply bg-black;
 	@apply text-white;
-	cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyMwMEZGRDEnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nbHVjaWRlIGx1Y2lkZS1tb3VzZS1wb2ludGVyLTInPjxwYXRoIGQ9J200IDQgNy4wNyAxNyAyLjUxLTcuMzlMMjEgMTEuMDd6JyBmaWxsPScjMDAwMDAwJyAvPjwvc3ZnPg=='),
-		default;
+
 	overflow-x: hidden;
 }
 
 ::selection {
 	color: #efefef;
 	background: #000eff;
-}
-
-a {
-	cursor: url('/pointer.svg'), pointer;
 }
 
 @font-face {
