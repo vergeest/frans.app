@@ -1,7 +1,6 @@
 <script>
 	import '../style.css';
 
-	import initAnaltytics from '../lib/plausible';
 	import NProgress from '$lib/NProgress.svelte';
 
 	import platypiNormalWoff2 from '@fontsource-variable/platypi/files/platypi-latin-wght-normal.woff2?url';
@@ -14,8 +13,6 @@
 
 	console.log('%cWelcome to frans.app!', consoleMessageTitle);
 	console.log("%cHave fun and explore, but please don't break things...", consoleMessageBody);
-
-	initAnaltytics('https://analytics.frans.app/api/event', 'frans.app');
 </script>
 
 <svelte:head>
@@ -25,6 +22,20 @@
 	<link rel="preload" href={silkscreenNormalWoff2} as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href={atk400NormalWoff2} as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href={atk700NormalWoff2} as="font" type="font/woff2" crossorigin />
+
+	<script
+		data-collect-dnt="true"
+		async
+		defer
+		src="https://scripts.simpleanalyticscdn.com/latest.js"
+	></script>
+	<noscript
+		><img
+			src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true"
+			alt=""
+			referrerpolicy="no-referrer-when-downgrade"
+		/></noscript
+	>
 </svelte:head>
 
 <NProgress />

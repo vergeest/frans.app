@@ -10,7 +10,7 @@
 		<div
 			class="flex items-center justify-center rounded-2xl border border-white/20 bg-black p-8 text-xl text-white/80"
 		>
-			Built with SvelteKit, TailwindCSS, Lucide Icons, Fontsource and hosted on Vercel.
+			Built with SvelteKit, TailwindCSS, Lucide Icons, Fontsource and hosted on Cloudflare Pages.
 		</div>
 	</div>
 </section>
