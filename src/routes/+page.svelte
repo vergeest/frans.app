@@ -31,5 +31,3 @@
 	</h1>
 	<SocialLinks />
 </section>
-
-<HomeGrid />
