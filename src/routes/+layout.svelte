@@ -23,19 +23,8 @@
 	<link rel="preload" href={atk400NormalWoff2} as="font" type="font/woff2" crossorigin />
 	<link rel="preload" href={atk700NormalWoff2} as="font" type="font/woff2" crossorigin />
 
-	<script
-		data-collect-dnt="true"
-		async
-		defer
-		src="https://scripts.simpleanalyticscdn.com/latest.js"
-	></script>
-	<noscript
-		><img
-			src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true"
-			alt=""
-			referrerpolicy="no-referrer-when-downgrade"
-		/></noscript
-	>
+	<script defer data-domain="frans.app" src="https://stats.frans.app/js/script.outbound-links.js"></script>
+	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </svelte:head>
 
 <NProgress />
