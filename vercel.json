@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/canva", "destination": "https://www.canva.com/design/DAGo7ooXkQk/DicAx7jgs62LIoCMU234Mw/view?utm_content=DAGo7ooXkQk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h49a39aa046", "permanent": false }
+  ]
+}
